@@ -77,9 +77,65 @@ nav ul li a {
       font-weight: 600;
 }
 
+.res-cards {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.row {
+    margin: 0 -5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    width: 60%;
+}
+
+.rowX {
+    margin: 0 -5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cardX {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 300px;
+}
+
 @media screen and (max-width: 864px) {
       .logo {
             padding: 0;
+      }
+
+      .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
       }
 
       .nav-wrapper {
