@@ -87,16 +87,16 @@ nav ul li a {
 
 .row {
     margin: 0 -5px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
     width: 60%;
 }
 
 .rowX {
     margin: 0 -5px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 50px;
 }
 

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop() > 20){
+        if($(this).scrollTop() > 5){
             $(".logo").css({"opacity" : "0"})
         }
         else {
@@ -21,7 +21,7 @@ var y = window.matchMedia("(max-width: 864px)")
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop() > 20 && myFunctionY(y)){
+        if($(this).scrollTop() > 5 && myFunctionY(y)){
             $(".nav-wrapper").css({"opacity" : "0"})
         }
         else {
