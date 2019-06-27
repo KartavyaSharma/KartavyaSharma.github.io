@@ -126,17 +126,6 @@ nav ul li a {
     height: 300px;
 }
 
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-.textarea p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
 @media screen and (max-width: 864px) {
       .logo {
             padding: 0;
