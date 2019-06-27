@@ -40,6 +40,7 @@ nav {
       font-size: 24px;
       letter-spacing: 0px;
       text-decoration: none;
+      word-wrap: break-word;
 }
 
 .nav-wrapper {
@@ -104,6 +105,16 @@ nav ul li a {
     clear: both;
 }
 
+.cardX {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 300px;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -113,17 +124,6 @@ nav ul li a {
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-}
-
-.cardX {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
-    background-color: #e6e6e6;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height: 300px;
 }
 
 @media screen and (max-width: 864px) {
