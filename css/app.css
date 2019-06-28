@@ -152,6 +152,7 @@ nav ul li a {
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
+    color: #03363d;
     text-transform: uppercase;
     vertical-align: center;
     word-wrap: break-word;
@@ -173,7 +174,6 @@ nav ul li a {
 
 .subCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgba(255,223,28);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -184,16 +184,63 @@ nav ul li a {
 .subCard p {
     text-align: center;
     padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     font-weight: 700;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
     text-transform: uppercase;
     vertical-align: center;
     word-wrap: break-word;
 }
 
-.subCard p.title {
-    font-size: 18px;
+#one {
+    background-color: #ef527f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#two {
+    background-color: #1cc7d0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#three {
+    background-color: #2dde98;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#four {
+    background-color: #ffc168;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#five {
+    background-color: #ff6c5f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#six {
+    background-color: #b84592;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .column {
@@ -236,8 +283,18 @@ nav ul li a {
           padding: 10px;
       }
 
+      .subCard {
+          height: inherit;
+          width: inherit;
+      }
+
+      .subCard p {
+          text-align: center;
+          padding: 10px;
+      }
+
       .column {
-          width: 100%;
+          width: 90.5%;
           display: block;
           margin-bottom: 20px;
       }
