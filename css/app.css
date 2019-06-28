@@ -94,11 +94,21 @@ nav ul li a {
     width: 70%;
 }
 
-.rowO {
-    margin: 0 -5px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10px;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(255,223,28);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .rowX {
@@ -108,10 +118,21 @@ nav ul li a {
     padding-top: 50px;
 }
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
+.cardX {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 300px;
+}
+
+.rowO {
+    margin: 0 -5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
 }
 
 .cardB {
@@ -136,25 +157,49 @@ nav ul li a {
     word-wrap: break-word;
 }
 
-.cardX {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #e6e6e6;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height: 300px;
+.rowK {
+    margin: 0 -5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    width: 100%;
 }
 
-.card {
+.rowK::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.subCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
     background-color: rgba(255,223,28);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    width: 93%;
+}
+
+.subCard p {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    vertical-align: center;
+    word-wrap: break-word;
+}
+
+.subCard p.title {
+    font-size: 18px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px 0 0;
 }
 
 @media screen and (max-width: 864px) {
@@ -189,6 +234,12 @@ nav ul li a {
       .cardB p {
           text-align: center;
           padding: 10px;
+      }
+
+      .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
       }
 
       .nav-wrapper {
