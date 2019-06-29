@@ -11,6 +11,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="javascript/Fading.js"></script>
         <script type="text/javascript" src="javascript/app.js"></script>
+        <script type="text/javascript" src="javascript/hover.js"></script>
 
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
@@ -71,16 +72,31 @@
                     <div class="overlay" id="myNav">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <div class="overlay-content">
-                            <ul>
-                                <li><a href="#">Sequences and Series</a></li>
-                                <li><a href="#">Exponents and Logarithms</a></li>
-                                <li><a href="#">Algebraic Structures</a></li>
-                                <li><a href="#">Polynomials</a></li>
-                                <li><a href="#">Counting Principles</a></li>
-                                <li><a href="#">Binomial Theorem</a></li>
-                                <li><a href="#">Mathematical Induction</a></li>
-                                <li><a href="#">Complex Numbers</a></li>
-                            </ul>
+                            <div class="rowOv">
+                                <div class="columnO">
+                                    <div class="topic-list">
+                                        <ul>
+                                            <li><a href="#">Sequences and Series</a></li>
+                                            <li><a href="#">Exponents and Logarithms</a></li>
+                                            <li><a href="#">Algebraic Structures</a></li>
+                                            <li><a href="#">Polynomials</a></li>
+                                            <li><a href="#">Counting Principles</a></li>
+                                            <li><a href="#">Binomial Theorem</a></li>
+                                            <li><a href="#">Mathematical Induction</a></li>
+                                            <li><a href="#">Complex Numbers</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="columnO">
+                                    <div class="in-overlay" id="in-over">
+                                        <div class="in-overlay-content">
+                                            <div class="card-in">
+                                                <span><h4> <b>Sample Text</b> </h4></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <span style="cursor:pointer;" onClick="openNav()">
