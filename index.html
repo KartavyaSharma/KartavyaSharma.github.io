@@ -10,13 +10,13 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="javascript/Fading.js"></script>
+        <script type="text/javascript" src="javascript/app.js"></script>
 
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900,900i&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900&display=swap" rel="stylesheet">
-
     </head>
     <body>
         <header>
@@ -68,9 +68,36 @@
             <!-- Cards -->
             <div class="row">
                 <div class="column">
-                    <div class="card" id="one">
-                        <h4><b>Algebra</b></h4>
+                    <div class="overlay" id="myNav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <ul>
+                                <li><a href="#">Sequences and Series</a></li>
+                                <li><a href="#">Exponents and Logarithms</a></li>
+                                <li><a href="#">Algebraic Structures</a></li>
+                                <li><a href="#">Polynomials</a></li>
+                                <li><a href="#">Counting Principles</a></li>
+                                <li><a href="#">Binomial Theorem</a></li>
+                                <li><a href="#">Mathematical Induction</a></li>
+                                <li><a href="#">Complex Numbers</a></li>
+                            </ul>
+                        </div>
                     </div>
+                    <span style="cursor:pointer;" onClick="openNav()">
+                        <div class="card" id="one">
+                            <h4><b>Algebra</b></h4>
+                            <ul id="list-algebra">
+                                <li>Sequences and Series</li>
+                                <li>Exponents and Logarithms</li>
+                                <li>Algebraic Structures</li>
+                                <li>Polynomials</li>
+                                <li>Counting Principles</li>
+                                <li>Binomial Theorem</li>
+                                <li>Mathematical Induction</li>
+                                <li>Complex Numbers</li>
+                            </ul>
+                        </div>
+                    </span>
                 </div>
                 <div class="column">
                     <div class="card" id="two">
