@@ -254,12 +254,30 @@ nav ul li a {
     border-bottom-right-radius: 5px;
 }
 
+#list-f&e {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 38px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: -2px;
+}
+
 #two {
     background-color: rgb(28, 199, 208);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+#list-trig {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 38px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: -2px;
 }
 
 #three {
@@ -270,6 +288,15 @@ nav ul li a {
     border-bottom-right-radius: 5px;
 }
 
+#list-vectors {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 38px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: -2px;
+}
+
 #four {
     background-color: rgb(255, 193, 104);
     border-top-left-radius: 5px;
@@ -278,12 +305,30 @@ nav ul li a {
     border-bottom-right-radius: 5px;
 }
 
+#list-stat {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 38px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: -2px;
+}
+
 #five {
     background-color: rgb(255, 108, 95);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+#list-calc {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 38px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: -2px;
 }
 
 #six {
